@@ -14,20 +14,12 @@ int sum(int arr[], int n) {
 
 >>>>>>> Tahsin_Habib_Brinto_test
 int main() {
-    int arr[100];
-    int i,j,k,n;
-
-    printf("Enter size of array ");
-    scanf("%d",&n);
-    for(i=0;i<n;i++)
-    {
-        printf("%dth element ",i+1);
-        scanf("%d",&arr[i]);
-    }
-
+    int i,j,k,n=3;
+    int arr[] = {1, 3, 5};
     printf("sum of the elements of this array is %d", sum(arr, n));
     return 0;
 }
+
 
 
 <<<<<<< HEAD
